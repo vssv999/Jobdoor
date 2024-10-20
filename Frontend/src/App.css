@@ -1,0 +1,394 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+
+li {
+  list-style-type: none;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+.footer {
+  justify-content: space-evenly;
+}
+.footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 830px) {
+  .footer {
+    justify-content: start;
+  }
+  .applicant-logo {
+    align-items: center;
+    /* margin-left: 22%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    margin-left: 30px;
+  }
+  /* .applicant-logo {
+    width: 250px;
+    height: 150px;
+    margin-left: 14%;
+  } */
+}
+
+/* pulkit style */
+.clr {
+  background-color: #07145c;
+  border-color: #f9f9f9;
+}
+.clrr {
+  background-color: #c41010;
+  border-color: #f9f9f9;
+}
+.bg {
+  background-image: url(https://technext.github.io/jobboard/images/hero_1.jpg);
+}
+.bgco {
+  background-image: url(https://www.rapidformationsblog.co.uk/wp-content/uploads/2020/04/Company-formation-agent.jpg);
+}
+
+.nbc {
+  background-color: #07145c;
+}
+
+.registerForm p {
+  color: red;
+}
+.registerForm h3 {
+  color: gold;
+}
+.cg {
+  color: gold;
+}
+.sc {
+  color: gold;
+}
+.pad {
+  color: rgb(5, 5, 5);
+  padding-top: 6.5em;
+  padding-bottom: 3em;
+  text-align: -webkit-center;
+}
+
+.innerpage {
+  height: auto;
+  min-height: auto;
+  padding-top: 5em;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.text-white {
+  color: #fff !important;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.bg-image {
+  background-size: cover;
+  background-position: center center;
+}
+.py-5 {
+  padding-top: 3rem !important;
+}
+.bg-image.fixed {
+  background-attachment: fixed;
+}
+.bg-image.overlay-primary {
+  position: relative;
+}
+
+.block__19738 {
+  text-align: center;
+}
+.block__19738 .caption {
+  font-size: 1rem;
+  display: block;
+  color: rgb(255 0 0 / 70%);
+}
+.caption {
+  background-color: #fffffff2;
+}
+.block__19738 .number {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #1c44e1;
+}
+.site-section {
+  padding-top: 7rem;
+  position: relative;
+  z-index: 2;
+}
+.pb-0,
+.py-0 {
+  padding-bottom: 0 !important;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.col-lg-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+.pt-0,
+.py-0 {
+  padding-top: 0 !important;
+}
+.img-shadow {
+  border-radius: 7px;
+  -webkit-box-shadow: 0 5px 30px -5px rgb(0 0 0 / 40%);
+  box-shadow: 0 5px 30px -5px rgb(0 0 0 / 40%);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.mb-lg-0,
+.my-lg-0 {
+  margin-bottom: 0 !important;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: #07145c;
+  border-radius: 50%;
+  text-decoration: none !important;
+  margin-bottom: 4%;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.btn-primaryy {
+  color: #212529;
+  background-color: #89ba16;
+  border-color: #89ba16;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.block__87154 {
+  position: relative;
+  background: #f8f9fa;
+  padding: 30px;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+}
+.block__87154 blockquote {
+  margin-bottom: 1.6rem;
+}
+blockquote {
+  margin: 0 0 1rem;
+}
+.block__87154 blockquote p {
+  font-size: 1.2rem;
+}
+.block__87154 .block__91147 img {
+  max-width: 180px;
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0;
+}
+
+/* Profile styling */
+
+.pb {
+  background: #07145c;
+}
+.circle {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #000;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.circle:hover {
+  height: 350px;
+  width: 350px;
+  background-color: #000;
+  border-radius: 20px;
+}
+.circle .social {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  bottom: -100px;
+  left: 50px;
+  transition: all 0.5s;
+}
+.circle .social li {
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.circle .social li:nth-child(1) {
+  background-color: #3b5998;
+}
+.circle .social li:nth-child(2) {
+  background-color: #007bb5;
+}
+.circle .social li:nth-child(3) {
+  background-color: #cd486b;
+}
+.circle .social li:nth-child(4) {
+  background-color: #cb2027;
+}
+.circle:hover .social {
+  bottom: 35px;
+}
+/* .form-control:focus {
+  box-shadow: none;
+  border-color: #ba68c8;
+} */
+/* .profile-button {
+  background: #07145c;
+  box-shadow: none;
+  border: none;
+} */
+/* .profile-button:hover {
+  background: #682773;
+} */
+/* .profile-button:focus {
+  background: #682773;
+  box-shadow: none;
+}
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+} */
+/* .back:hover {
+  color: #682773;
+  cursor: pointer;
+}
+.labels {
+  font-size: 11px;
+}
+.add-experience:hover {
+  background: #ba68c8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #ba68c8;
+} */
+.roundedd {
+  display: -webkit-box;
+}
+
+
+
+.tl{
+  text-align: left;
+}
+
+
+
+
+.circle .social li:nth-child(1){
+  background-color:#3b5998;
+}
+
+.circle .social li:nth-child(2){
+  background-color:#007bb5;
+}
+
+.circle .social li:nth-child(3){
+  background-color:#cd486b;
+}
+
+.circle .social li:nth-child(4){
+  background-color:#cb2027;
+}
+
+.circle:hover .social{
+   bottom: 35px;
+}
+
+.form-control:focus {
+   box-shadow: none;
+   border-color: #BA68C8
+}
+
+.profile-button {
+   background:  #07145c;
+   box-shadow: none;
+   border: none
+}
+
+.profile-button:hover {
+   background: #682773
+}
+
+.profile-button:focus {
+   background: #682773;
+   box-shadow: none
+}
+
+.profile-button:active {
+   background: #682773;
+   box-shadow: none
+}
+
+.back:hover {
+   color: #682773;
+   cursor: pointer
+}
+
+
+
+.add-experience:hover {
+   background: #BA68C8;
+   color: #fff;
+   cursor: pointer;
+   border: solid 1px #BA68C8
+}
+.roundedd{
+   display: -webkit-box;
+}
