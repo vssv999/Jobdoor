@@ -97,8 +97,7 @@ const HomePage = () => {
             />
           </div>
           <Row>
-            {state
-              .filter((val) => {
+            {state.filter((val) => {
                 if (input == "") {
                   return val;
                 } else if (
